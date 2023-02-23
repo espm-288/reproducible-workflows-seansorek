@@ -6,7 +6,6 @@ editor_options:
   chunk_output_type: console
 ---
 
-
 ## Quarto
 
 Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
@@ -33,4 +32,5 @@ library(tidyverse)
 
 mtcars |> ggplot(aes(cyl, mpg)) + geom_point()
 plot(mpg ~ hp, mtcars)
+print("what")
 ```
